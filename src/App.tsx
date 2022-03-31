@@ -1,22 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { AppBar, Toolbar, Typography } from '@mui/material';
-import Router from './Router/Router';
+import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 import './App.css';
+import { Link } from 'react-router-dom';
+import routes from 'src/Router/routes';
+import Router from './Router/Router';
 
 const App = () => {
 
   return (
     <div>
-      <AppBar position="static" sx={{ marginBottom: 5 }}>
-        <Toolbar>
-          <Typography variant="h6" component="div">
-            Accueil
-          </Typography>
-          <Typography variant="h6" component="div">
-            Favoris
-          </Typography>
-        </Toolbar>
-      </AppBar>
+
       <Router />
     </div>
   );
