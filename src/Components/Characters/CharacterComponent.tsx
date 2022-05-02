@@ -3,7 +3,7 @@ import { Card, CardMedia, Box, Typography, CardContent, Button } from "@mui/mate
 
 const CharacterComponent = ({ character }: any) => (
     <Card sx={{ display: 'flex' }}>
-        <CardMedia component="img" sx={{ width: 300 }} image={character.image} alt="Character" />
+        {/* <CardMedia component="img" sx={{ width: 300 }} image={character.image} alt="Character" /> */}
         <Box sx={{ padding: 5, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <CardContent>
                 <Typography component="div" variant="h3">
