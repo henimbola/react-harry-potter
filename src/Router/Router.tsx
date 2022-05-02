@@ -3,9 +3,9 @@ import { BrowserRouter, Route, Routes, Navigate, Link } from "react-router-dom";
 import Characters from "src/Components/Characters/Characters";
 import CharactersProvider from "src/Common/contexts/CharactersProvider";
 import Favorites from "src/Components/Favorites";
+import Layout from "src/Common/components/Layout";
 import routes from './routes';
 import Home from "../Components/Home";
-import Layout from "src/Common/components/Layout";
 
 const Router = () => (
     <CharactersProvider>
