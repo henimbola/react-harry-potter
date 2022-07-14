@@ -1,6 +1,6 @@
-# Getting Started with My Harry Potter App
+# My Harry Potter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build to list every harry potter characters in an application. It was for learning purpose.
 
 ## Available Scripts
 
